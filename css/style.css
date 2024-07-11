@@ -14,12 +14,39 @@ body {
 }
 
 header {
-
+    height: 80px;
+    background-color: #ffffff;
+    
 }
 
 /* Utils */
 
-.container {
-    max-width: 1200px;
+.container-big {
+    max-width: 1400px;
     margin: 0 auto;
+}
+
+.border {
+    border: black 2px dashed;
+}
+
+.flex {
+    display: flex;
+}
+
+.container-small {
+
+}
+
+.navbar-head {
+}
+
+.row {
+    flex-basis: 50%;
+    height: 80px;
+}
+
+.spotlight {
+    min-height: 600px;
+    margin-top: 50px;
 }
