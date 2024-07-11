@@ -36,6 +36,7 @@ h1 {
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .container-small {
@@ -76,4 +77,8 @@ h1 {
 
 .partner {
     min-height: 500px;
+}
+
+.business {
+    min-height: 300px;
 }
