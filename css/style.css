@@ -67,9 +67,13 @@ h1 {
 /* Main */
 
 .plans {
-    min-height: 200px;
+    min-height: 400px;
 }
 
 .radio {
     height: 20px;
+}
+
+.partner {
+    min-height: 500px;
 }
