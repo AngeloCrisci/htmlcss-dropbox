@@ -49,6 +49,10 @@ h1 {
     height: 100;
 }
 
+.card {
+    flex-basis: calc(100% / 3);
+}
+
 .margin{
     margin-top: 80px;
 }
@@ -79,6 +83,14 @@ h1 {
     min-height: 500px;
 }
 
-.business {
+.business-card {
+    min-height: 300px;
+}
+
+.card-footer {
+    min-height: 300px;
+}
+
+.teams {
     min-height: 300px;
 }
