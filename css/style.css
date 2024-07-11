@@ -16,8 +16,12 @@ body {
 header {
     height: 80px;
     background-color: #ffffff;
-    
 }
+
+h1 {
+    margin-bottom: 50px;
+}
+
 
 /* Utils */
 
@@ -35,7 +39,7 @@ header {
 }
 
 .container-small {
-
+    max-width: 1080px;
 }
 
 .navbar-head {
