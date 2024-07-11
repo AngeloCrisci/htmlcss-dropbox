@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    height: 80px;
+    min-height: 80px;
     background-color: #ffffff;
 }
 
@@ -40,17 +40,36 @@ h1 {
 
 .container-small {
     max-width: 1080px;
-}
-
-.navbar-head {
+    margin: 0 auto;
 }
 
 .row {
     flex-basis: 50%;
-    height: 80px;
+    height: 100;
 }
+
+.margin{
+    margin-top: 80px;
+}
+
+
+/* Header */
+
+.navbar-head {
+    min-height: 80px;
+}
+
 
 .spotlight {
     min-height: 600px;
-    margin-top: 50px;
+}
+
+/* Main */
+
+.plans {
+    min-height: 200px;
+}
+
+.radio {
+    height: 20px;
 }
