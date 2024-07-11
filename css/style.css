@@ -94,3 +94,18 @@ h1 {
 .teams {
     min-height: 300px;
 }
+
+.trial {
+    min-height: 300px;
+}
+
+/* Footer */
+
+.footer-box {
+    min-height: 500px;
+}
+
+.footer-box .row {
+    min-height: 100px;
+    flex-basis: calc(100% / 5);
+}
