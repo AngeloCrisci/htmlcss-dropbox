@@ -10,7 +10,7 @@
 /* Generics */
 
 body {
-    font-family: Open-Sans, sans-serif;
+    font-family: 'Open-Sans' , sans-serif;
 }
 
 header {
@@ -22,6 +22,29 @@ h1 {
     margin-bottom: 50px;
 }
 
+footer {
+    background-color: black;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.navbar-head ul {
+    display: flex;
+    gap: 30px;
+ 
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
 
 /* Utils */
 
@@ -44,10 +67,6 @@ h1 {
     margin: 0 auto;
 }
 
-.row {
-    flex-basis: 50%;
-    height: 100;
-}
 
 .card {
     flex-basis: calc(100% / 3);
@@ -57,11 +76,24 @@ h1 {
     margin-top: 80px;
 }
 
+.row-grow {
+    flex-grow: 1;
+}
 
 /* Header */
 
 .navbar-head {
     min-height: 80px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    padding: 20px;    
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 
