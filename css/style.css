@@ -14,12 +14,14 @@ body {
 }
 
 header {
-    min-height: 80px;
+    height: 80px;
     background-color: #ffffff;
 }
 
 h1 {
     margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: 800;
 }
 
 footer {
@@ -27,15 +29,17 @@ footer {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
     display: block;
 }
 
-.navbar-head ul {
+#navbar-head ul {
     display: flex;
     gap: 30px;
- 
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 ul {
     list-style-type: none;
@@ -46,20 +50,20 @@ a {
     color: black;
 }
 
+p {
+   line-height: 25px;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
 /* Utils */
 
 .container-big {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
-}
-
-.border {
-    border: black 2px dashed;
-}
-
-.flex {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .container-small {
@@ -67,41 +71,107 @@ a {
     margin: 0 auto;
 }
 
+.border {
+    border: black 2px dashed;
+}
+
+/* Buttons */
+
+.btn {
+    padding: 10px 15px;
+    color: whitesmoke;
+    background-color: #0061fe;
+    display: inline-block;
+}
+
+.radio-check {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: #0061fe 5px solid;
+    vertical-align: middle;
+}
+
+.radio {    
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: gray 1px solid;
+    vertical-align: middle;
+}
+
+
+/* Layout */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .card {
     flex-basis: calc(100% / 3);
 }
 
-.margin{
+.m-btm {
+    margin-bottom: 50px;
+}
+
+.m-top{
     margin-top: 80px;
+}
+
+.m-right {
+    margin-right: 50px;
 }
 
 .row-grow {
     flex-grow: 1;
 }
 
+.row > .col-30 {
+    flex-basis: 30%;
+}
+
+.row > .col-70 {
+    flex-basis: 70%;
+}
+
+.row > .col-33 {
+    flex-basis: calc(100% / 3 - 80px / 3);
+}
+
+
+
+
 /* Header */
 
-.navbar-head {
-    min-height: 80px;
+#navbar-head {
+    height: 80px;
     background-color: white;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 1;
-    padding: 20px;    
+    padding: 20px; 
+    display: flex;   
     justify-content: space-between;
     align-items: center;
-
-}
-
-
-.spotlight {
-    min-height: 600px;
 }
 
 /* Main */
+
+
+#spotlight {
+    height: 670px;
+    background-color: #b4d0e6;
+    padding-top: 50px;
+    margin-bottom: 150px;
+}
+
+
 
 .plans {
     min-height: 400px;
