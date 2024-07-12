@@ -102,12 +102,21 @@ h2 {
     vertical-align: middle;
 }
 
+.front-display {
+    border: gray 1px solid;
+    padding: 10px 100px;
+}
 
 /* Layout */
 
 .row {
     display: flex;
     flex-wrap: wrap;
+    
+}
+.row.row-grow {
+    gap: 40px;
+    justify-content: flex-start;
 }
 
 .card {
@@ -142,6 +151,9 @@ h2 {
     flex-basis: calc(100% / 3 - 80px / 3);
 }
 
+.col {
+    min-height: 200px;
+}
 
 
 
