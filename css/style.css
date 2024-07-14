@@ -95,13 +95,20 @@ address {
 }
 
 .border {
-    border: black 2px dashed;
+    border: gray 0.1px solid;
 }
 
 .pdg-int {
     padding: 30px 20px;
 }
 
+.pdg-top {
+    padding-top: 50px;
+}
+
+.pdg-left {
+    padding-left: 30px;
+}
 /* Buttons */
 
 .btn {
@@ -113,6 +120,15 @@ address {
 
 .btn.btn-big {
     padding: 10px 50px;
+}
+
+.btn.b-bigger {
+    padding: 10px 105px;
+}
+.btn.white {
+    color: black;
+    background-color: whitesmoke;
+    border: black 1px solid;
 }
 
 .radio-check {
@@ -160,7 +176,7 @@ address {
 }
 
 .m-top{
-    margin-top: 80px;
+    margin-top: 150px;
 }
 
 .m-right {
@@ -189,7 +205,25 @@ address {
     flex-basis: calc(100% / 3 - 80px / 3);
 }
 
+.row > .col-60{
+    flex-basis: 60%;
+}
 
+.row > .col-40 {
+    flex-basis: 40%;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.col-big {
+    flex-basis: 100%;
+}
 
 
 
@@ -225,8 +259,8 @@ address {
 }
 
 .main-display {  
-    min-height: 200px;
-    border: gray 1px solid;
+    min-height: 1000px;
+    border: gray 0.1px solid;
     line-height: 25px;
 }
 
@@ -242,7 +276,7 @@ address {
     min-height: 500px;
 }
 
-.business-card {
+.card {
     min-height: 300px;
 }
 
