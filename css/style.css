@@ -379,3 +379,11 @@ address {
 .btn:hover {
     opacity: 0.5;
 }
+
+.hidden p:last-child {
+    display: none;
+}
+
+.hidden:hover p:last-child {
+    display: block;
+}
