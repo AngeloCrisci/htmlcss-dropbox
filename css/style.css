@@ -253,7 +253,9 @@ address {
     flex-basis: 40%;
 }
 
-
+.footer-box .col {
+    flex-basis: calc(100% /5);
+}
 
 
 .flex {
@@ -343,12 +345,26 @@ address {
 
 
 /* Footer */
-
 .footer-box {
     min-height: 500px;
 }
 
-.footer-box .row {
-    min-height: 100px;
-    flex-basis: calc(100% / 5);
+.footer-box .col {
+    color: white;
+    line-height: 2.5rem;
+}
+
+.footer-box a {
+    color: white;
+    display: block;
+}
+
+.end-footer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-top: 1px white  solid;
+}
+
+.end-footer span {
+    color: white;
 }
