@@ -158,10 +158,18 @@ address {
 .btn.b-bigger {
     padding: 10px 105px;
 }
+
 .btn.white {
     color: black;
     background-color: whitesmoke;
     border: black 1px solid;
+}
+
+.btn.freetrial {
+    color: black;
+    background-color: whitesmoke;
+    width: 240px;
+    text-align: center;
 }
 
 .radio-check {
@@ -246,6 +254,8 @@ address {
 }
 
 
+
+
 .flex {
     display: flex;
     justify-content: center;
@@ -323,12 +333,11 @@ address {
     line-height: 25px;
 }
 
-.card-footer {
-    min-height: 300px;
-}
-
 .trial {
-    min-height: 300px;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
