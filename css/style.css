@@ -109,6 +109,39 @@ address {
 .pdg-left {
     padding-left: 30px;
 }
+
+.b-design {
+    background-color: #a2d39b;
+}
+
+.b-arizona {
+    background-color: #62082b
+}
+
+.b-florida {
+    background-color: #0193ce;
+}
+
+.b-topps {
+    background-color: #fe1c1d;
+}
+
+.b-world {
+    background-color: #d50020;
+}
+
+.b-hearts {
+    background-color: #b4d0e6;
+}
+
+.b-lonely {
+    background-color: #0d2481;
+}
+
+.b-clear {
+    background-color: #ffd930;
+}
+
 /* Buttons */
 
 .btn {
@@ -160,7 +193,6 @@ address {
 .row {
     display: flex;
     flex-wrap: wrap;
-    
 }
 .row.row-grow {
     gap: 40px;
@@ -218,13 +250,36 @@ address {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .col-big {
     flex-basis: 100%;
 }
 
+.box .boxes {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    display: flex;
+     flex-wrap: wrap;
+}
+
+.row.box {
+    flex-wrap: nowrap;
+}
+
+.boxes .small-boxes {
+    width: 50%;
+    height: 50%;
+}
+
+.small-boxes img {
+    width: 60%;
+    filter: invert(1);
+}
+
+.card-design img {
+    height: 20%;
+}
 
 
 /* Header */
@@ -264,33 +319,15 @@ address {
     line-height: 25px;
 }
 
-.plans {
-    min-height: 400px;
-}
-
-.radio {
-    height: 20px;
-}
-
-.partner {
-    min-height: 500px;
-}
-
-.card {
-    min-height: 300px;
-}
-
 .card-footer {
-    min-height: 300px;
-}
-
-.teams {
     min-height: 300px;
 }
 
 .trial {
     min-height: 300px;
 }
+
+
 
 /* Footer */
 
