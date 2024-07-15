@@ -281,6 +281,10 @@ address {
     height: 20%;
 }
 
+.card-design {
+    padding: 40px;
+    background-color: #f5f5f5;
+}
 
 /* Header */
 
